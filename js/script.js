@@ -95,6 +95,10 @@ form.addEventListener("submit", function (e) {
     msg.style.color = "#4ade80";
 
     form.reset(); // Clear form fields
+
+    setTimeout(() => {
+        msg.textContent = "";
+    }, 3000);
 });
 
 
