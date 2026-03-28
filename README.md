@@ -11,6 +11,7 @@ The website includes:
 - A **Contact** section with contact information and a functional form (frontend only).
 - A responsive layout that adapts to desktop, tablet, and mobile screens.
 - A Dark/Light mode toggle implemented using JavaScript.
+- A Skills section featuring an interactive 3D rotating sphere of technologies
 
 The design was created with attention to layout structure, spacing, and visual consistency.
 
@@ -50,7 +51,8 @@ The website includes:
 - A **Contact** section with a functional form and user feedback
 - A responsive layout for desktop, tablet, and mobile devices
 - A Dark/Light mode toggle using JavaScript and localStorage
-
+- A Skills section featuring an interactive 3D rotating sphere of technologies
+Clicking the sphere spreads all tags into a flat readable grid, clicking again returns them to the sphere
 ---
 
 ## Setup Instructions (Run Locally)
@@ -69,5 +71,6 @@ AI tools (ChatGPT) were used as a learning and support tool during development.
 
 - Helped me understand how to implement interactive features such as Show More / Show Less
 - Assisted in explaining JavaScript concepts like event handling and DOM manipulation
+- Helped fix 3D transform issues where tags appeared tilted when the animation was paused
 
 
