@@ -81,6 +81,13 @@ function toggleDetails(button) {
 
 // Handle form submission
 form.addEventListener("submit", function (e) {
+
+    if (!form.checkValidity()) {
+        msg.textContent = "Please fill all fields correctly";
+        msg.style.color = "#ff6b6b";
+        return;
+    }
+
     e.preventDefault(); // Prevent page reload
 
     // Show success message
@@ -89,6 +96,7 @@ form.addEventListener("submit", function (e) {
 
     form.reset(); // Clear form fields
 });
+
 
 // Show browser validation while typing
 const emailInput = document.getElementById("email");
