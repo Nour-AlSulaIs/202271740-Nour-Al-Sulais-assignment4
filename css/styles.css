@@ -137,6 +137,35 @@ body {
     transform: translateY(-10px);
 }
 
+.full {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+.card-content button {
+    background: none;
+    border: none;
+    color: #aaa;
+    cursor: pointer;
+    margin-top: 15px; 
+    font-size: 14px;
+    transition: 0.2s;
+}
+.card-content button:active {
+    transform: scale(0.95);
+}
+.card-content button:hover {
+    color: #fff;
+    transform: translateY(2px);
+}
+
 /*CONTACT SECTION*/
 
 .contact-me {

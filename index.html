@@ -10,7 +10,7 @@
     <title>Nour AL Sulais Profile</title>
 
     <!-- main Stylesheet  -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -52,10 +52,14 @@
                 <img src="assets/images/project1.png" alt="project1">
                 <div class="card-content">
                     <h5>CampusHub</h5>
-                    <p class="description">
+                    <p class="description short">
+                        Designed the full UI/UX in Figma.
+                    </p>
+                    <p class="description full">
                         Designed the full UI/UX in Figma based on project requirements,
                         focusing on layout structure, user flow, and visual hierarchy.
                     </p>
+                    <button onclick="toggleDetails(this)">Show More</button>
                 </div>
             </div>
 
@@ -64,11 +68,16 @@
                 <img src="assets/images/project2.png" alt="project2">
                 <div class="card-content">
                     <h5>Gaming+ Websites</h5>
-                    <p class="description">
+                    <p class="description short">
+                        Developed a full-stack web application.
+                    </p>
+
+                    <p class="description full">
                         Developed a full-stack web application using modern technologies
                         with database integration. Implemented backend logic, data handling,
                         and dynamic content features.
                     </p>
+                    <button onclick="toggleDetails(this)">Show More</button>
                 </div>
             </div>
 
@@ -77,10 +86,15 @@
                 <img src="assets/images/project3.png" alt="project3">
                 <div class="card-content">
                     <h5>VolunteerLink</h5>
-                    <p class="description">
+                    <p class="description short">
+                        Created a complete UI/UX design...
+                    </p>
+
+                    <p class="description full">
                         Created a complete UI/UX design in Figma based on defined
                         requirements, emphasizing usability and clean interface structure.
                     </p>
+                    <button onclick="toggleDetails(this)">Show More</button>
                 </div>
             </div>
 
@@ -113,17 +127,18 @@
                     </a>
                 </div>
 
-                <!-- Contact Form (Left Side) -->
-                <form class="contact-form">
+             <!-- Contact Form (Left Side) -->
+                <form class="contact-form" id="contact-form">
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
                     <textarea placeholder="Your Message" rows="4" required></textarea>
                     <button type="submit">Send Message</button>
+                    <p id="form-msg"></p>
                 </form>
 
             </div>
         </div>
-    </section>
+    </section>   
 
     <!-- JavaScript File-->
     <script src="js/script.js"></script>

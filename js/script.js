@@ -27,6 +27,18 @@ typeWriter();
 
 const toggleBtn = document.getElementById("theme-toggle");
 
+/* Load saved theme */
+window.onload = function () {
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "light") {
+        document.body.classList.add("light-mode");
+        toggleBtn.textContent = "Light";
+    } else {
+        toggleBtn.textContent = "Dark";
+    }
+};
+
 toggleBtn.addEventListener("click", () => {
 
     /* Toggle theme class */
@@ -35,9 +47,45 @@ toggleBtn.addEventListener("click", () => {
     /* Update button label */
     if (document.body.classList.contains("light-mode")) {
         toggleBtn.textContent = "Light";
+        localStorage.setItem("theme", "light");
+
     } else {
         toggleBtn.textContent = "Dark";
+        localStorage.setItem("theme", "dark");
+
     }
 });
+// Get form and message element
+const form = document.getElementById("contact-form");
+const msg = document.getElementById("form-msg");
 
+
+// Toggle project details show more or show less
+function toggleDetails(button) {
+    const fullText = button.previousElementSibling;
+    const shortText = fullText.previousElementSibling;
+
+    // Check if details are hidden
+    if (window.getComputedStyle(fullText).display === "none") {
+        fullText.style.display = "block";   // Show full text
+        shortText.style.display = "none";   // Hide short text
+        button.textContent = "Show Less";
+    } else {
+        fullText.style.display = "none";    // Hide full text
+        shortText.style.display = "block";  // Show short text
+        button.textContent = "Show More";
+    }
+}
+
+
+// Handle form submission
+form.addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent page reload
+
+    // Show success message
+    msg.textContent = "Message sent successfully";
+    msg.style.color = "#4ade80";
+
+    form.reset(); // Clear form fields
+});
 

@@ -10,6 +10,9 @@ I used ChatGPT as a learning and support tool throughout this assignment. It was
 - Improving responsive design for desktop, tablet, and mobile screens
 - Implementing a Dark/Light mode toggle using JavaScript
 - learning the typing animation for the "Software Engineer" tagline
+- Understanding how to implement interactive features using JavaScript
+- Creating a "Show More / Show Less" functionality for projects
+- Handling form submission and displaying a success message
 
 ChatGPT was primarily used for explanations, debugging guidance, and learning new techniques rather than automatically generating the entire project.
 
@@ -23,13 +26,14 @@ ChatGPT was primarily used for explanations, debugging guidance, and learning ne
 - Improved my understanding of responsive design principles
 - Introduced better ways to structure layouts using Flexbox and Grid
 - Assisted in implementing theme switching logic properly
-
+- Helped me understand JavaScript interactions and dynamic content
 
 ### Challenges
 
 - Not all generated solutions matched my design goals directly
 - I needed to manually test and verify all suggestions using browser DevTools
 - Some adjustments were necessary to maintain consistency across dark and light modes
+- Understanding JavaScript logic required additional practice
 
 ---
 
@@ -42,6 +46,8 @@ Through this assignment, I learned:
 - How to properly structure responsive layouts using Flexbox and Grid
 - How to apply media queries effectively for mobile and tablet responsiveness
 - How to implement theme toggling using class manipulation in JavaScript
+- How to handle form submission and display user feedback
+- How to manipulate the DOM using JavaScript
 
 AI enhanced my learning process and helped me discover more efficient development practices.
 
@@ -51,7 +57,6 @@ AI enhanced my learning process and helped me discover more efficient developmen
 
 All AI-generated suggestions were carefully reviewed before implementation.
 
-
 - Tested every suggested solution manually
 - Modified layout and styling to match my design requirements
 - Ensured that the final implementation reflects my own understanding
@@ -59,4 +64,3 @@ All AI-generated suggestions were carefully reviewed before implementation.
 - Verified responsiveness using browser resizing and DevTools
 
 AI was used as a supportive learning assistant. The final code structure, design decisions, and refinements were implemented and customized by me.
-
