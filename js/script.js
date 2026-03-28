@@ -27,8 +27,8 @@ typeWriter();
 
 const toggleBtn = document.getElementById("theme-toggle");
 
-/* Load saved theme */
-window.onload = function () {
+/* Load saved theme when page loads */
+document.addEventListener("DOMContentLoaded", function () {
     const savedTheme = localStorage.getItem("theme");
 
     if (savedTheme === "light") {
@@ -37,7 +37,7 @@ window.onload = function () {
     } else {
         toggleBtn.textContent = "Dark";
     }
-};
+});
 
 toggleBtn.addEventListener("click", () => {
 
@@ -52,9 +52,10 @@ toggleBtn.addEventListener("click", () => {
     } else {
         toggleBtn.textContent = "Dark";
         localStorage.setItem("theme", "dark");
-
     }
 });
+
+
 // Get form and message element
 const form = document.getElementById("contact-form");
 const msg = document.getElementById("form-msg");
@@ -89,3 +90,9 @@ form.addEventListener("submit", function (e) {
     form.reset(); // Clear form fields
 });
 
+// Show browser validation while typing
+const emailInput = document.getElementById("email");
+
+emailInput.addEventListener("input", function () {
+    emailInput.reportValidity();
+});
