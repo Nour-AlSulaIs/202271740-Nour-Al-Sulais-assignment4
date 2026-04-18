@@ -46,6 +46,7 @@ To run this project locally:
 ### Performance Optimization
 - Images use lazy loading
 - Unused code removed
+- Compress or resize large images so they load faster.
 - Responsive design ensures smooth performance
 
 ---
