@@ -1,76 +1,83 @@
-# Portfolio Website – Assignment 1
-
-## Project Description
-
-This project is a personal portfolio website developed using HTML, CSS, and JavaScript.  
-
-The website includes:
-
-- An **About Me** section introducing my background and interests.
-- A **Projects** section showcasing design and development work.
-- A **Contact** section with contact information and a functional form (frontend only).
-- A responsive layout that adapts to desktop, tablet, and mobile screens.
-- A Dark/Light mode toggle implemented using JavaScript.
-- A Skills section featuring an interactive 3D rotating sphere of technologies
-
-The design was created with attention to layout structure, spacing, and visual consistency.
-
----
-
-## Setup Instructions (Run Locally)
-
-To run this project locally:
-
-1. Download or clone the repository.
-2. Open the project folder.
-3. Open the main HTML file ( `index.html`) in your browser.
-
-No installation or backend setup is required.
-
----
-
-## AI Usage Summary
-
-AI tools (ChatGPT) were used as a support tool during development for:
-
-- Debugging CSS layout issues
-- Improving responsive design
-
-# Portfolio Website – Assignment 2
+# Portfolio Website – Assignment 3 (Advanced Functionality)
 
 ## Project Description
 
 This project is a personal portfolio website developed using HTML, CSS, and JavaScript.
 
-It is an extension of Assignment 1, where additional interactive features and dynamic behavior were implemented to enhance user experience.
+It builds upon previous assignments by adding advanced functionality, dynamic content, and improved user interaction.
 
 The website includes:
 
-- An **About Me** section introducing my background and interests
-- A **Projects** section showcasing design and development work
-- A **Contact** section with a functional form and user feedback
-- A responsive layout for desktop, tablet, and mobile devices
-- A Dark/Light mode toggle using JavaScript and localStorage
-- A Skills section featuring an interactive 3D rotating sphere of technologies
-Clicking the sphere spreads all tags into a flat readable grid, clicking again returns them to the sphere
+- About Me section introducing my background
+- Projects section showcasing my work
+- Contact section with form validation and feedback
+- Responsive design for desktop, tablet, and mobile
+- Dark/Light mode toggle using JavaScript and localStorage
+- Skills section with an interactive 3D rotating sphere
+- Advice feature using an external API
+- Graduation countdown timer
+
 ---
 
-## Setup Instructions (Run Locally)
+## Setup Instructions
 
 To run this project locally:
 
-1. Download or clone the repository
+1. clone the repository
 2. Open the project folder
 3. Open `index.html` in your browser
+
+## Features
+
+### API Integration
+- Uses Advice API to fetch dynamic content
+- Displays advice using JavaScript
+- Handles API errors gracefully
+
+### Complex Logic
+- Countdown timer calculates remaining time until graduation
+- Updates every second
+- Displays completion message when finished
+
+### State Management
+- Dark/Light mode toggle
+- User preference saved in localStorage
+
+### Performance Optimization
+- Images use lazy loading
+- Unused code removed
+- Responsive design ensures smooth performance
+
+---
+
+## User Experience
+
+The website is designed to be simple and easy to use:
+
+- Clear navigation between sections
+- Interactive buttons (Show More, Theme Toggle, API button)
+- Real-time countdown feedback
+- Form validation with instant messages
+- Fully responsive layout
+
+---
+
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Grid, Media Queries)
+- JavaScript (DOM manipulation, async/await)
 
 ---
 
 ## AI Usage Summary
 
-AI tools (ChatGPT) were used as a learning and support tool during development.
+ChatGPT was used as a support tool to:
 
-- Helped me understand how to implement interactive features such as Show More / Show Less
-- Assisted in explaining JavaScript concepts like event handling and DOM manipulation
-- Helped fix 3D transform issues where tags appeared tilted when the animation was paused
+- Debug layout and styling issues
+- Improve responsive design
+- Explain JavaScript logic
+- Help implement API integration and countdown
 
+All suggestions were reviewed and modified.
 

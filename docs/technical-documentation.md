@@ -176,3 +176,22 @@ The project was tested to ensure functionality and consistency:
 - Connect the contact form to a backend service
 - Add more interactive features (filtering or search)
 - Deploy the website using GitHub Pages
+
+---
+## 10. API Integration — Dynamic Advice Feature
+
+A dynamic advice feature was added using an external API to enhance the website with real-time content.
+
+### How it works
+
+- The application sends a request to the Advice API using `fetch`
+- The response is returned in JSON format
+- JavaScript extracts the advice text from the response
+- The content is displayed dynamically in the hero section
+
+### Error handling
+
+- If the API request fails, a fallback message is displayed
+- This ensures the application remains stable even if external data is unavailable
+
+This feature demonstrates the ability to work with external APIs and dynamically update the user interface.

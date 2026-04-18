@@ -146,7 +146,8 @@ const sphPos = skills.map((s, i) => {
 
 // Calculate flat grid position for each skill when spread out
 function flatPos(i) {
-  const cols = 4, gapX = 105, gapY = 50;
+  const cols = window.innerWidth < 500 ? 3 : 4; // 3 columns on mobile, 4 on desktop
+  const gapX = 105, gapY = 50;
   const col  = i % cols;
   const row  = Math.floor(i / cols);
   const totalRows = Math.ceil(skills.length / cols);
@@ -232,3 +233,4 @@ document.getElementById('scene').addEventListener('click', () => {
     applyOrbit();
   }
 });
+

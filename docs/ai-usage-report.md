@@ -15,6 +15,7 @@ I used ChatGPT as a learning and support tool throughout this assignment. It was
 - Handling form submission and displaying a success message
 - Fixing 3D transform inheritance issues where tags appeared tilted when paused
 - Refining the JavaScript animation loop using requestAnimationFrame and manual rotation math
+- Adding dynamic content using an external API to display real-time advice
 
 ChatGPT was primarily used for explanations, debugging guidance, and learning new techniques rather than automatically generating the entire project.
 
@@ -29,6 +30,7 @@ ChatGPT was primarily used for explanations, debugging guidance, and learning ne
 - Introduced better ways to structure layouts using Flexbox and Grid
 - Assisted in implementing theme switching logic properly
 - Helped me understand JavaScript interactions and dynamic content
+- Gained experience in building time-based features such as countdown timers
 
 ### Challenges
 
@@ -36,6 +38,7 @@ ChatGPT was primarily used for explanations, debugging guidance, and learning ne
 - I needed to manually test and verify all suggestions using browser DevTools
 - Some adjustments were necessary to maintain consistency across dark and light modes
 - Understanding JavaScript logic required additional practice
+- Encountered issues with some APIs (CORS and reliability), which required switching to a more stable API
 
 ---
 
@@ -50,6 +53,7 @@ Through this assignment, I learned:
 - How to implement theme toggling using class manipulation in JavaScript
 - How to handle form submission and display user feedback
 - How to manipulate the DOM using JavaScript
+- How to calculate and display time differences dynamically in JavaScript
 
 AI enhanced my learning process and helped me discover more efficient development practices.
 
@@ -64,5 +68,6 @@ All AI-generated suggestions were carefully reviewed before implementation.
 - Ensured that the final implementation reflects my own understanding
 - Adjusted design decisions to maintain originality and consistency
 - Verified responsiveness using browser resizing and DevTools
+- Adjusted countdown logic to match the project design and user interface
 
 AI was used as a supportive learning assistant. The final code structure, design decisions, and refinements were implemented and customized by me.
