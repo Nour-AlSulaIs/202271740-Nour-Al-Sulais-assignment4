@@ -17,6 +17,14 @@ function typeWriter() {
     }
 }
 
+
+/* flower */
+
+window.addEventListener("load", () => {
+  const flower = document.querySelector(".flower");
+  flower.classList.add("show-flower");
+});
+
 /* Start typing animation */
 typeWriter();
 

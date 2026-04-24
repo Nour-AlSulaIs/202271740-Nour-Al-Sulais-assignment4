@@ -19,7 +19,14 @@ The website showcases my skills, projects, and technical abilities through an in
 - Graduation countdown timer with real-time updates  
 - Advice feature using an external API  
 - Dark/Light mode toggle with saved user preference  
-- Fully responsive design for desktop, tablet, and mobile  
+- Fully responsive design for desktop, tablet, and mobile 
+
+
+## Innovation
+
+- Added a small animated flower element that appears on page load  
+- Enhances visual experience without affecting performance  
+- Implemented using lightweight CSS animation
 
 ---
 
