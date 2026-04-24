@@ -4,20 +4,22 @@
 
 ### ChatGPT
 
-I used ChatGPT as a learning and support tool throughout this assignment. It was mainly used for:
+ChatGPT was used as a learning support tool throughout this assignment. It assisted in problem-solving, debugging, and improving the overall quality of the application.
+
+Key use cases include:
 
 - Debugging CSS layout and alignment issues (Flexbox & Grid)
-- Improving responsive design for desktop, tablet, and mobile screens
-- Implementing a Dark/Light mode toggle using JavaScript
-- learning the typing animation for the "Software Engineer" tagline
-- Understanding how to implement interactive features using JavaScript
-- Creating a "Show More / Show Less" functionality for projects
-- Handling form submission and displaying a success message
-- Fixing 3D transform inheritance issues where tags appeared tilted when paused
-- Refining the JavaScript animation loop using requestAnimationFrame and manual rotation math
-- Adding dynamic content using an external API to display real-time advice
+- Enhancing responsive design across desktop, tablet, and mobile devices
+- Implementing a Dark/Light mode toggle using JavaScript and localStorage
+- Learning and applying typing animation for the “Software Engineer” tagline
+- Building interactive features using JavaScript (DOM manipulation)
+- Implementing "Show More / Show Less" functionality for project cards
+- Handling form submission and displaying user feedback messages
+- Resolving 3D transform issues in the skills sphere animation
+- Improving animation performance using requestAnimationFrame
+- Integrating an external API to display dynamic advice content
 
-ChatGPT was primarily used for explanations, debugging guidance, and learning new techniques rather than automatically generating the entire project.
+ChatGPT was mainly used for explanations, debugging guidance, and learning new techniques rather than generating full solutions.
 
 ---
 
@@ -25,49 +27,48 @@ ChatGPT was primarily used for explanations, debugging guidance, and learning ne
 
 ### Benefits
 
-- Helped identify CSS mistakes and structural layout issues quickly
-- Improved my understanding of responsive design principles
-- Introduced better ways to structure layouts using Flexbox and Grid
-- Assisted in implementing theme switching logic properly
-- Helped me understand JavaScript interactions and dynamic content
-- Gained experience in building time-based features such as countdown timers
+- Quickly identified and resolved layout and styling issues
+- Improved understanding of responsive design principles
+- Provided guidance on structuring layouts using Flexbox and Grid
+- Simplified the implementation of JavaScript-based features
+- Helped in building dynamic components such as countdown timers and API integration
+- Enhanced overall development efficiency and problem-solving approach
 
 ### Challenges
 
-- Not all generated solutions matched my design goals directly
-- I needed to manually test and verify all suggestions using browser DevTools
-- Some adjustments were necessary to maintain consistency across dark and light modes
-- Understanding JavaScript logic required additional practice
-- Encountered issues with some APIs (CORS and reliability), which required switching to a more stable API
+- Some suggestions required modification to match design requirements
+- Manual testing was needed to validate all outputs
+- Maintaining consistency between Dark and Light modes required extra adjustments
+- Understanding advanced JavaScript logic required additional effort
+- Faced issues with some APIs (e.g., CORS and reliability), which required switching to a more stable alternative
 
 ---
 
 ## Learning Outcomes
 
-Using AI introduced me to new techniques and development approaches that improved both my technical skills and workflow.
+Using AI tools significantly enhanced both my technical skills and development workflow.
 
-Through this assignment, I learned:
+Key learnings include:
 
-- How to properly structure responsive layouts using Flexbox and Grid
-- How to apply media queries effectively for mobile and tablet responsiveness
-- How to implement theme toggling using class manipulation in JavaScript
-- How to handle form submission and display user feedback
-- How to manipulate the DOM using JavaScript
-- How to calculate and display time differences dynamically in JavaScript
+- Structuring responsive layouts using Flexbox and Grid
+- Applying media queries effectively for different screen sizes
+- Implementing theme switching using JavaScript and class toggling
+- Handling form validation and providing user feedback
+- Manipulating the DOM dynamically using JavaScript
+- Creating real-time features such as countdown timers
+- Improving animation performance and user interaction
 
-AI enhanced my learning process and helped me discover more efficient development practices.
+AI helped accelerate the learning process and introduced more efficient development practices.
 
 ---
 
 ## Responsible Use & Modifications
 
-All AI-generated suggestions were carefully reviewed before implementation.
+All AI-generated suggestions were carefully reviewed, tested, and modified before implementation.
 
-- Tested every suggested solution manually
-- Modified layout and styling to match my design requirements
-- Ensured that the final implementation reflects my own understanding
-- Adjusted design decisions to maintain originality and consistency
-- Verified responsiveness using browser resizing and DevTools
-- Adjusted countdown logic to match the project design and user interface
+- Verified all solutions manually using browser testing and developer tools
+- Customized layout and styling to match personal design requirements
+- Ensured originality by adapting and refining all suggestions
+- Maintained consistency across the entire application
 
-AI was used as a supportive learning assistant. The final code structure, design decisions, and refinements were implemented and customized by me.
+AI was used strictly as a supportive tool. The final implementation, design decisions, and refinements were independently completed and fully understood.

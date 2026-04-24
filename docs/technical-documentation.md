@@ -1,10 +1,12 @@
-# Technical Documentation – Assignment 3 
+# Technical Documentation – Assignment 4 (Final Project)
 
 ## 1. Project Overview
 
-This project is a responsive personal portfolio website developed using HTML, CSS, and JavaScript.
+This project is a fully responsive personal portfolio web application developed using HTML, CSS, and JavaScript.
 
-In Assignment 3, the project was enhanced by adding advanced functionality, dynamic features, and improved user interaction. The goal was to demonstrate the use of external APIs, complex logic, and better state management.
+It represents the final stage of development, combining all previously implemented features with additional enhancements, improved design, and better user interaction.
+
+The main goal is to showcase technical skills through a polished and interactive web application.
 
 ---
 
@@ -12,13 +14,13 @@ In Assignment 3, the project was enhanced by adding advanced functionality, dyna
 
 The project follows a clean and organized structure:
 
-- **HTML** defines the structure and content of the website  
-- **CSS** handles styling, layout, and responsiveness  
-- **JavaScript** manages interactivity and dynamic behavior  
-- **Assets** folder contains images and media  
-- **Docs** folder includes documentation files  
+- **index.html** → Main structure and content  
+- **css/styles.css** → Styling, layout, and responsive design  
+- **js/script.js** → Interactivity and dynamic functionality  
+- **assets/** → Images and media files  
+- **docs/** → Documentation files  
 
-This structure improves maintainability and scalability.
+This structure improves maintainability, readability, and scalability.
 
 ---
 
@@ -27,19 +29,19 @@ This structure improves maintainability and scalability.
 - HTML5  
 - CSS3  
   - Flexbox (layout alignment)  
-  - CSS Grid (project cards layout)  
+  - CSS Grid (projects layout)  
   - Media Queries (responsive design)  
 - JavaScript  
   - DOM manipulation  
   - Event handling  
-  - Async/Await (API requests)  
+  - Async/Await (API integration)  
 - Responsive Design principles  
 
 ---
 
 ## 4. Responsive Design Implementation
 
-The website adapts to different screen sizes:
+The website is fully responsive and adapts to different screen sizes:
 
 - Desktop  
 - Tablet  
@@ -48,11 +50,11 @@ The website adapts to different screen sizes:
 Techniques used:
 
 - Flexbox for layout alignment (About, Contact sections)  
-- CSS Grid for organizing project cards  
-- Media queries for adjusting layout on smaller screens  
+- CSS Grid for project cards  
+- Media queries for layout adjustments  
 - Max-width containers for better readability  
 
-Testing was performed using browser resizing and DevTools.
+Testing was performed using browser DevTools and screen resizing.
 
 ---
 
@@ -61,123 +63,127 @@ Testing was performed using browser resizing and DevTools.
 Theme switching is implemented using JavaScript:
 
 - A button toggles the `light-mode` class on the `<body>`  
-- CSS overrides define light mode styling  
-- `localStorage` stores the user's theme preference  
-- The saved theme is applied on page load  
+- CSS applies different styles for dark and light modes  
+- `localStorage` stores the user's preference  
+- The selected theme persists across page reloads  
 
-This ensures a consistent user experience.
+This improves user experience and personalization.
 
 ---
 
-## 6. Interactive Features
+## 6. Navigation System
+
+- Navigation is implemented using anchor links (`#section-id`)  
+- Smooth scrolling is enabled using CSS (`scroll-behavior`)  
+- Active section highlighting is handled using JavaScript  
+- The current section is detected based on viewport position  
+
+This ensures accurate navigation and improves usability.
+
+---
+
+## 7. Interactive Features
 
 ### Show More / Show Less
 
-- Each project includes:
-  - A short description (default)
-  - A full description (hidden)
-- A button toggles visibility using JavaScript  
-- Button text updates dynamically  
+- Each project card contains short and full descriptions  
+- JavaScript toggles visibility dynamically  
+- Button text updates based on state  
 
-This keeps the layout clean and interactive.
+### Skills Sphere
+
+- A 3D rotating sphere displays skills  
+- Implemented using CSS transforms and JavaScript animation  
+- Rotation is controlled and optimized for performance  
 
 ---
 
-## 7. Contact Form and Validation
+## 8. Contact Form and Validation
 
 The contact section includes:
 
 - Name input  
-- Email input (validated by browser)  
+- Email input (HTML validation)  
 - Message textarea  
-- Submit button  
 
 Functionality:
 
-- Required fields enforced using HTML validation  
-- JavaScript handles submission  
-- `event.preventDefault()` prevents page reload  
-- Success message is displayed  
+- Required fields validation  
+- JavaScript prevents page reload (`event.preventDefault()`)  
+- Success message displayed to the user  
 - Form resets after submission  
 
 ---
 
-## 8. API Integration — Advice Feature
+## 9. API Integration — Advice Feature
 
-An external API was used to display dynamic content.
+An external API is used to fetch dynamic advice.
 
-### How it works
+### Implementation
 
-- A request is sent using `fetch`  
-- The response is converted to JSON  
-- Advice text is extracted and displayed in the UI  
+- `fetch()` is used to request data  
+- Data is parsed using `response.json()`  
+- Advice text is displayed dynamically  
 
 ### Error Handling
 
-- If the API fails, a fallback message is shown  
+- Fallback message shown if request fails  
 - Prevents application crashes  
-
-This demonstrates external API integration and dynamic updates.
 
 ---
 
-## 9. Countdown Timer (Complex Logic)
+## 10. Countdown Timer (Complex Logic)
 
 A graduation countdown timer was implemented.
 
-### How it works
+### Functionality
 
-- A future date is defined using JavaScript  
-- Current time is retrieved continuously  
-- The difference is calculated  
-- Converted into:
+- A target date is defined  
+- Current time is updated continuously  
+- Time difference is calculated and converted into:
   - Days
   - Hours
   - Minutes
   - Seconds  
-- Updated every second using `setInterval`
+
+- Updated every second using `setInterval()`
 
 ### Logic
 
-- Mathematical calculations convert milliseconds  
-- Condition checks when countdown ends  
-
-This demonstrates advanced JavaScript logic.
+- Uses mathematical calculations for time conversion  
+- Stops and displays a message when countdown ends  
 
 ---
 
-## 10. Performance Optimization
+## 11. Performance Optimization
 
-Basic performance improvements were applied:
-
-- Images use `loading="lazy"` for faster loading  
-- Unused code was removed  
-- Efficient CSS properties were used  
-- DOM access was optimized in JavaScript  
-
-These steps improve loading speed and efficiency.
+- Images use `loading="lazy"`  
+- Code cleaned and optimized  
+- Efficient DOM manipulation  
+- Responsive design improves performance across devices  
 
 ---
 
-## 11. UI/UX Considerations
+## 12. UI/UX Considerations
 
-The design focuses on usability:
+The design focuses on clarity and usability:
 
-- Clear layout and navigation  
-- Consistent spacing and alignment  
-- Interactive elements (buttons, API, countdown)  
-- Real-time updates improve engagement  
-- Responsive design ensures smooth experience  
+- Clean and consistent layout  
+- Clear navigation structure  
+- Interactive elements (buttons, animations, API content)  
+- Real-time feedback (countdown, form messages)  
+- Consistent color system across dark and light modes  
 
 ---
 
-## 12. Testing & Validation
+## 13. Testing & Validation
 
-The project was tested to ensure functionality:
+The application was tested to ensure reliability:
 
 - Responsive behavior across devices  
-- Dark/Light mode switching  
-- API data loading  
-- Countdown accuracy  
-- Form validation and feedback  
- 
+- Dark/Light mode functionality  
+- API data loading and error handling  
+- Countdown timer accuracy  
+- Form validation and submission  
+
+All major features were verified using browser testing tools.

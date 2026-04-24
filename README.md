@@ -1,21 +1,25 @@
-# Portfolio Website – Assignment 3 (Advanced Functionality)
+# Portfolio Website – Assignment 4 (Final Project)
 
 ## Project Description
 
-This project is a personal portfolio website developed using HTML, CSS, and JavaScript.
+This project is a personal portfolio web application developed using HTML, CSS, and JavaScript.
 
-It builds upon previous assignments by adding advanced functionality, dynamic content, and improved user interaction.
+It represents the final stage of the course, combining all previously learned concepts into a complete, polished, and responsive web application.
 
-The website includes:
+The website showcases my skills, projects, and technical abilities through an interactive and user-friendly interface.
 
-- About Me section introducing my background
-- Projects section showcasing my work
-- Contact section with form validation and feedback
-- Responsive design for desktop, tablet, and mobile
-- Dark/Light mode toggle using JavaScript and localStorage
-- Skills section with an interactive 3D rotating sphere
-- Advice feature using an external API
-- Graduation countdown timer
+---
+
+## Features
+
+- About Me section introducing my background and interests  
+- Projects section showcasing selected work with interactive cards  
+- Skills section with an interactive 3D rotating sphere  
+- Contact section with form validation and feedback messages  
+- Graduation countdown timer with real-time updates  
+- Advice feature using an external API  
+- Dark/Light mode toggle with saved user preference  
+- Fully responsive design for desktop, tablet, and mobile  
 
 ---
 
@@ -23,62 +27,63 @@ The website includes:
 
 To run this project locally:
 
-1. clone the repository
-2. Open the project folder
-3. Open `index.html` in your browser
+1. Clone the repository  
+2. Open the project folder  
+3. Open `index.html` in your browser  
 
-## Features
+---
+
+## Technical Highlights
 
 ### API Integration
-- Uses Advice API to fetch dynamic content
-- Displays advice using JavaScript
-- Handles API errors gracefully
+- Integrated Advice API to fetch dynamic content  
+- Used asynchronous JavaScript (async/await)  
+- Implemented error handling for failed requests  
 
-### Complex Logic
-- Countdown timer calculates remaining time until graduation
-- Updates every second
-- Displays completion message when finished
+### Dynamic Functionality
+- Countdown timer calculates remaining time until graduation  
+- Updates automatically every second  
+- Displays completion message when the countdown ends  
 
 ### State Management
-- Dark/Light mode toggle
-- User preference saved in localStorage
+- Dark/Light mode toggle implemented using JavaScript  
+- User preference stored using localStorage  
 
 ### Performance Optimization
-- Images use lazy loading
-- Unused code removed
-- Compress or resize large images so they load faster.
-- Responsive design ensures smooth performance
+- Images use lazy loading  
+- Code is cleaned and optimized  
+- Responsive layout ensures smooth performance across devices  
 
 ---
 
 ## User Experience
 
-The website is designed to be simple and easy to use:
+The website is designed with usability and clarity in mind:
 
-- Clear navigation between sections
-- Interactive buttons (Show More, Theme Toggle, API button)
-- Real-time countdown feedback
-- Form validation with instant messages
-- Fully responsive layout
+- Smooth navigation between sections  
+- Interactive elements (buttons, cards, animations)  
+- Real-time feedback (countdown and form validation)  
+- Clean and consistent design  
+- Mobile-friendly responsive layout  
 
 ---
 
 ## Technologies Used
 
-- HTML5
-- CSS3 (Flexbox, Grid, Media Queries)
-- JavaScript (DOM manipulation, async/await)
+- HTML5  
+- CSS3 (Flexbox, Grid, Media Queries)  
+- JavaScript (DOM Manipulation, Events, Async/Await)  
 
 ---
 
 ## AI Usage Summary
 
-ChatGPT was used as a support tool to:
+AI tools such as ChatGPT were used to support the development process, including:
 
-- Debug layout and styling issues
-- Improve responsive design
-- Explain JavaScript logic
-- Help implement API integration and countdown
+- Debugging layout and styling issues  
+- Improving responsive design  
+- Explaining JavaScript logic and concepts  
+- Assisting with API integration and dynamic features  
 
-All suggestions were reviewed and modified.
+All AI-generated suggestions were carefully reviewed, modified, and adapted to ensure correctness, originality, and full understanding of the implementation.
 
