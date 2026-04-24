@@ -14,29 +14,35 @@
 </head>
 
 <body>
-    
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <a href="#top">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
     <!-- Theme Toggle Button -->
     <button id="theme-toggle" class="theme-btn">
         Dark
     </button>
 
-    
-    
-
-    <!--Hero Section -->
-    <section class="the-top">
+    <!-- Hero Section -->
+    <section class="the-top" id="top">
         <div class="header">
             <h1>Hello, I'm <span id="name">Nour AL Sulais</span></h1>
-            <h2 ><span class="typing"></span></h2>
+            <h2><span class="typing"></span></h2>
 
-            <p id = "quote"></p>
+            <p id="quote"></p>
             <p id="author"></p>
             <button onclick="getQuote()">Get Quote</button>
         </div>
     </section>
 
-    <!--  About Section-->
-    <section class="about-me">
+    <!-- About Section -->
+    <section class="about-me" id="about">
         <div class="about-container">
             <h2>About Me</h2>
             <p>
@@ -45,25 +51,22 @@
                 technologies along the way. I'm always learning and working on
                 improving my skills to create projects that are fun, useful, and meaningful.
             </p>
-           
         </div>
     </section>
 
-
-    <!--  Graduation Section-->
+    <!-- Graduation Countdown Section -->
     <section class="countdown-section">
-    <h2>🎓 Graduation Countdown</h2>
-
-    <div id="countdown">
-        <p id="days"></p>
-        <p id="hours"></p>
-        <p id="minutes"></p>
-        <p id="seconds"></p>
-    </div>
+        <h2>🎓 Graduation Countdown</h2>
+        <div id="countdown">
+            <p id="days"></p>
+            <p id="hours"></p>
+            <p id="minutes"></p>
+            <p id="seconds"></p>
+        </div>
     </section>
 
-    <!-- projects Section -->
-    <section class="projects">
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
         <h2>My Projects</h2>
 
         <div class="cards-container">
@@ -92,7 +95,6 @@
                     <p class="description short">
                         Developed a full-stack web application.
                     </p>
-
                     <p class="description full">
                         Developed a full-stack web application using modern technologies
                         with database integration. Implemented backend logic, data handling,
@@ -110,7 +112,6 @@
                     <p class="description short">
                         Created a complete UI/UX design...
                     </p>
-
                     <p class="description full">
                         Created a complete UI/UX design in Figma based on defined
                         requirements, emphasizing usability and clean interface structure.
@@ -122,14 +123,15 @@
         </div>
     </section>
 
-    <section class="skills">
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
         <h2>Skills</h2>
         <div id="scene"><div id="sphere"></div></div>
         <p id="hint">Click to view all</p>
     </section>
 
-    <!--Contact Section -->
-    <section class="contact-me">
+    <!-- Contact Section -->
+    <section class="contact-me" id="contact">
         <div class="contact-container">
 
             <!-- Section Title -->
@@ -137,12 +139,12 @@
 
             <div class="contact-content">
 
-                <!-- Contact Info (Right Side) -->
+                <!-- Contact Info -->
                 <div class="contact-info">
                     <p class="phone">+966 566790806</p>
 
                     <a href="mailto:noursulais@gmail.com" class="contact-link">
-                        <img src="assets/images/email.png" alt="Email" width="30" >
+                        <img src="assets/images/email.png" alt="Email" width="30">
                         <span>Email</span>
                     </a>
 
@@ -154,21 +156,20 @@
                     </a>
                 </div>
 
-             <!-- Contact Form (Left Side) -->
+                <!-- Contact Form -->
                 <form class="contact-form" id="contact-form">
                     <input type="text" placeholder="Your Name" required>
-                    <input type="email" id="email" placeholder="Your Email" required>                    <textarea placeholder="Your Message" rows="4" required></textarea>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="4" required></textarea>
                     <button type="submit">Send Message</button>
                     <p id="form-msg"></p>
                 </form>
 
             </div>
         </div>
-    </section>   
+    </section>
 
-    
-
-    <!-- JavaScript File-->
+    <!-- JavaScript File -->
     <script src="js/script.js"></script>
 
 </body>
