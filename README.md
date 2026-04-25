@@ -94,3 +94,8 @@ AI tools such as ChatGPT were used to support the development process, including
 
 All AI-generated suggestions were carefully reviewed, modified, and adapted to ensure correctness, originality, and full understanding of the implementation.
 
+##  Live Demo
+
+You can view the live website here:  
+ https://nour-alsulais.github.io/202271740-Nour-Al-Sulais-assignment4/
+
